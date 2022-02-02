@@ -2,11 +2,18 @@
 
 The purpose of this project is to apply machine learning algorithms to existing algorithmic trading strategies to enhance existing trading signals by adapting to new data. The parameters of the algorithm are tuned to optimize the strategy. Additional machine learning models (SVM and Logistic Regression) are also trained and tested in order to compare their performance to the baseline model. 
 
-The results of the analysis show that the SVM machine learning model outperforms the baseline strategy, but the Logistic Regression model only outperforms the baseline strategy during certain time periods.
+The baseline strategy returns showed an outperformance of the actual returns of the asset:
+
+
+The results of the analysis show that the SVM machine learning model outperforms the baseline strategy, but the Logistic Regression model only outperforms the baseline strategy during certain time periods (between mid 2018-2021).
 
 
 
-The parameters of the training algorithm were tuned to analyze a different time period and different SMA input features.
+The parameters of the training algorithm were tuned to analyze a different time period and different SMA input features. 
+
+By increasing the training window to 6 months instead of 3 months, the baseline strategy ended up underperforming the actual returns between late 2018-early 2020, but then outperformed the actual returns from early 2020 to 2021.
+
+By increasing the SMA short window from 4 to 21, the strategy never outperformed the actual returns. 
 
 
 ## Technologies
