@@ -3,6 +3,7 @@
 The purpose of this project is to apply machine learning algorithms to existing algorithmic trading strategies to enhance existing trading signals by adapting to new data. The parameters of the algorithm are tuned to optimize the strategy. Additional machine learning models (SVM and Logistic Regression) are also trained and tested in order to compare their performance to the baseline model. 
 
 The baseline strategy returns showed an outperformance of the actual returns of the asset:
+
 ![image](https://user-images.githubusercontent.com/89161654/152255918-4bb1aff2-fde5-4b91-ac70-4ec9c0dab167.png)
 
 
